@@ -1,0 +1,48 @@
+@charset  "UTF-8";
+
+/* ヘッダー */
+header {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    background-color: #ffcccc;
+}
+
+/* wrapper */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrapper {
+    width: 1000px;
+    padding: 0;
+    margin: 0;
+}
+
+/* main */
+
+#main {
+    width: 700px;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #ccffcc;
+    float: left;
+}
+
+/* memu */
+#menu {
+    width: 300px;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #ccccff;
+    float: right;
+}
+
+/* フッター */
+footer {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    background-color: #ffccff;
+}
